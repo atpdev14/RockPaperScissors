@@ -32,15 +32,27 @@
 
 		<!-- ROW 2- GAME -->
 		<div class="row">
-			<div id="player1" class="col-lg-4 gameCol">
-				<h2>Player One</h2>
+			<div id="mainDisplay" class="col-lg-6 gameCol">
+				<h2 id="gamePrompt">Player 1- Make a Selection</h2>
 			</div>
-			<div id="mainDisplay" class="col-lg-4 gameCol"></div>
-			<div id="player2" class="col-lg-4 gameCol">
-				<h2>Player Two</h2>
+
+			<div id="player1" class="col-lg-6 gameCol">
+				<h2 id="player">Player One</h2>
 			</div>
 		</div>
 	</div><!--  Container Closure -->
+
+	<!-- ROW 3- RESULTS -->
+		<div id="results">
+			<span id="p1Results">
+				<h3>Player 1: <span id="p1Wins"></span></h3>
+			</span>
+
+			<span id="p2Results">
+				<h3>Player 2: <span id="p2Wins"></span></h3>
+			</span>
+			
+		</div>
 
 
 	<!-- My Javascript -->
